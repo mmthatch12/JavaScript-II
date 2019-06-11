@@ -74,7 +74,7 @@ function contains(item, list, cb) {
  return cb(checks)
 }
 
-contains(items, 'Notebook', function(sixth){
+contains(items, 'Pencil', function(sixth){
   console.log(sixth)
 })
 
